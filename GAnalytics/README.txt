@@ -1,8 +1,27 @@
    [Unity3D Google Analytics]
 
-   Intended for open modification and redistribution via GitHub accessible at https://github.com/burningship/unity3d-ganalytics.
+   Intended for open modification and redistribution via GitHub accessible
+   at https://github.com/burningship/unity3d-ganalytics.
 
-   Enhanced Google Analytics support for the web &amp; desktop standalone platforms inside Unity3d. Supports optional logging of registered Analytics events in the case of an unsuccessful network connection attempt. Events are written to file via PlayerPrefs and transmitted if a working connection is restored, including between sessions.
+   Enhanced Google Analytics support for the web & desktop standalone 
+   platforms inside Unity3d. Supports optional logging of registered 
+   Analytics events in the case of an unsuccessful network connection 
+   attempt. Events are written to file via PlayerPrefs and transmitted if a
+   working connection is restored, including between sessions.
+   
+   
+   [Usage]
+   
+   Set up your Google Analytics account online (analytics.google.com) for Web
+   Page tracking. Noting the domain and UID values assigned to this account.
+   
+   In Unity3D, assign these values to the relevant strings inside the
+   GoogleTrackingID.cs script file. Assign a product name and enable logging 
+   if you wish.
+   
+   Intended use is to import the Assets.GAnalytics namespace and call
+   Analytics.Registerview() methods to send events from any script in the 
+   Unity3D project.
 
 
    Copyright 2013 [Liam David Jenkin]
